@@ -1,5 +1,15 @@
 # -Professional-Networking-assignment
 
-#### This project was my most recent assignment in cs234, which is a class that teaches Java. For this assignments, we had to create a parent class with subclasses that inherited certain traits of the parent class, as well as some other task.
-#### The first class, titled Pet, is the parent class of this situation. Afterwards I delcared my variables, which included the Name, Type, BirthDate, Owner, Weight, Sex, and Color which will later be used for the pets.
-####
+#### This project was my most recent assignment in cs234, which is a class that teaches Java. For this assignments, we had to create a parent class with subclasses that inherited certain traits of the parent class, as well as some other method with random outputs.
+
+#### The first class, titled Pet, is the parent class of this situation. Afterwards I declared my variables, which included the Name, Type, BirthDate, Owner, Weight, Sex, and Color which will later be used for the pets.
+#### The next code is a default constructer with no parameters, something must be used in java. Then came the constructer with the desired parameters. This allowed me to declared thee variables in order whenever I'd later create the objects that used this constructor.
+#### The next area is all of the setters and getters used for the respective variables. This set the variables to a default value and allowed the variables to be returned when called.
+#### The following methods were some of the required material for the assignments. At their current state, whenever they were called they would throw out a line of code that was based around the objects variables. The Speak method was just a placeholder that i would later change based on the type of pet used.
+#### The second class was the cat class, which uses "extends Pet" to inherit the code of the Pet class. In this class i inherited the constructor and it's values using "super", which takes all of the values from the previous constructor. I learned after grading that i do not need to "super" the values, but instead place new "dummy" values to act as placeholders. Next is the @Override command used to override a previous section of code. In this case, it was used to override the speak method and replace it with one relevant to a cat. Lines 114-131 were methods required by the assignment, that output specific lines whenever called to.
+#### The next classes, Dog, Bird, and Turtle are all very similar to cat, the only variation being the lines outputted by their respective methods.
+#### The final class is the "driver" class. It is named after the file itself, as the public class in Java has to be. The only work done is this class is the creation of nonspecifically named objects that would be created based off the specific stated class, either Cat, Dog, Bird, or Turtle, and declared the values or strings of the variables previously created in the original constructer form the Pet class. The objects would then be printed, which just states their declared variables. The objects would finally call upon their respective variables, which outputted the lines that their method was based off of.
+
+#### I made a 95/100 on  this assignment, with the -5 points coming from me using "super" on the inherited classes' constructors when all i had to do was create dummy values.
+
+#### Overall, I thoroughly enjoyed this assignment, as it made me realize how much I had learnt about coding in Java since starting the semester. I learned how to better inherit classes, as well as strengthened my knowledge on the basics of Java.
